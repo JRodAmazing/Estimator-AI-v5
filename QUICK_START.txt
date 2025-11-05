@@ -1,0 +1,45 @@
+# Quick Start Guide - Run These Commands
+
+## Step 1: Run Cleanup Script
+
+cd C:\Users\jcrod\heavyiron-bot\estimator_ai_v5_phase1
+.\cleanup.ps1
+
+## Step 2: Initialize Git (if not done already)
+
+git init
+git add .
+git commit -m "feat: initial commit - Estimator AI v5 production ready"
+
+## Step 3: Create GitHub Repository
+
+# Go to: https://github.com/new
+# Repository name: estimator-ai-v5
+# Description: AI-powered construction estimating & design automation system built with Discord.js
+# Visibility: Public
+# Don't check any boxes
+# Click "Create repository"
+
+## Step 4: Connect to GitHub
+
+# Replace YOUR_USERNAME with your actual GitHub username
+git remote add origin https://github.com/YOUR_USERNAME/estimator-ai-v5.git
+git branch -M main
+git push -u origin main
+
+## Step 5: Configure Repository on GitHub Website
+
+# Add topics: discord-bot, nodejs, construction, automation, ai, pdfkit
+# Add description: AI-powered construction estimating & design automation with Discord.js
+
+## Step 6: Pin to Your Profile
+
+# On GitHub:
+# 1. Go to your profile
+# 2. Click "Customize your pins"
+# 3. Select "estimator-ai-v5"
+
+## Done!
+
+# Next: Update README.md with your personal info
+# See GITHUB_SETUP.md for detailed instructions

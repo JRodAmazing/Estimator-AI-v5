@@ -1,0 +1,44 @@
+{
+<<<<<<< HEAD
+  "name": "estimator-ai-v5-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord-based construction estimator and design assistant built with Node.js 22 and Discord.js 14.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.23.2",
+    "dotenv": "^17.2.3",
+    "fs-extra": "^11.3.2",
+    "node-fetch": "^3.3.2"
+  },
+  "author": "Justin Roden",
+  "license": "MIT"
+=======
+  "name": "estimator_ai_v5_full",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "mock-api": "node ./mock-api/server.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "discord.js": "^14.23.2",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "fs-extra": "^11.3.2",
+    "json2csv": "^6.0.0-alpha.2",
+    "node-fetch": "^3.3.2",
+    "pdfkit": "^0.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+>>>>>>> 44f3a69da87585a9858c7193bc0fd7935d5e1cf2
+}

@@ -1,0 +1,6 @@
+{
+  "watch": ["index.js", "commands", "modules"],
+  "ignore": ["data/*", "mock-api/*"],
+  "ext": "js,json",
+  "exec": "node index.js"
+}
