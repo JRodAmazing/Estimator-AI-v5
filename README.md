@@ -388,7 +388,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Have questions or want to collaborate? Reach out!
 
 - **Email**: jcroden25@gmail.com
-- **LinkedIn**: [linkedin.com/in/JRodAmazing](https://linkedin.com/in/JRodAmazing)
+- **LinkedIn**: [linkedin.com/in/JRodAmazing](https://linkedin.com/in/JRodAmazing1)
 - **Project Issues**: [GitHub Issues](https://github.com/JRodAmazing/estimator-ai-v5/issues)
 
 ---
