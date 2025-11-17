@@ -1,0 +1,118 @@
+═══════════════════════════════════════════════════════════════
+   CONSTRUCTION ESTIMATOR WEB APP - READY TO USE!
+═══════════════════════════════════════════════════════════════
+
+📍 Location: C:\Users\jcrod\Documents\business\HeavyIron Consults\Estimator_Web_App
+
+═══════════════════════════════════════════════════════════════
+   STEP 1: GET YOUR API KEY
+═══════════════════════════════════════════════════════════════
+
+1. Go to: https://console.anthropic.com/
+2. Sign up or log in
+3. Click "API Keys" in the left menu
+4. Click "Create Key" button
+5. Copy the key (it starts with sk-ant-...)
+
+═══════════════════════════════════════════════════════════════
+   STEP 2: ADD API KEY TO .ENV FILE
+═══════════════════════════════════════════════════════════════
+
+1. Open the file: .env (in this folder)
+2. Replace "sk-ant-your-api-key-here" with your actual API key
+3. Save the file
+
+═══════════════════════════════════════════════════════════════
+   STEP 3: START THE SERVER
+═══════════════════════════════════════════════════════════════
+
+Open terminal in this folder and run:
+
+    npm start
+
+You should see:
+    🚀 Estimator Web App running on http://localhost:3000
+
+═══════════════════════════════════════════════════════════════
+   STEP 4: ACCESS FROM YOUR DEVICES
+═══════════════════════════════════════════════════════════════
+
+ON YOUR COMPUTER:
+    Open browser and go to: http://localhost:3000
+
+ON YOUR PHONE (same WiFi network):
+    Open browser and go to: http://192.168.4.27:3000
+
+    ⚠️ NOTE: Your IP address is 192.168.4.27
+    If it doesn't work, run 'ipconfig' to verify your current IP
+
+═══════════════════════════════════════════════════════════════
+   HOW TO USE
+═══════════════════════════════════════════════════════════════
+
+1. Type: "I need an estimate for building a 600 sqft pool"
+2. Answer the AI's questions about your project
+3. Click "Generate Full Estimate" button
+4. View detailed breakdown of:
+   - Labor costs
+   - Materials with suppliers
+   - Equipment rental needs
+   - Required permits
+   - Project timeline
+   - Inventory requirements
+5. Click "Download PDF Report" for a professional document
+6. Click "Check Inventory" to verify material availability
+
+═══════════════════════════════════════════════════════════════
+   FEATURES
+═══════════════════════════════════════════════════════════════
+
+✅ AI-powered conversational interface
+✅ Comprehensive cost estimates
+✅ Professional PDF reports
+✅ Labor breakdown by task
+✅ Materials with supplier information
+✅ Equipment rental suggestions
+✅ Permit requirements and timelines
+✅ Project timeline with phases
+✅ Inventory checking
+✅ Mobile-responsive design
+✅ Works on phones and tablets
+
+═══════════════════════════════════════════════════════════════
+   TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+Can't access from phone?
+→ Make sure phone and computer are on same WiFi
+→ Check Windows Firewall settings for port 3000
+→ Verify your IP hasn't changed (run 'ipconfig')
+
+API errors?
+→ Check your API key in .env file
+→ Make sure there are no extra spaces
+→ Verify API credits at console.anthropic.com
+
+Need more help?
+→ Read QUICK_START.md for detailed guide
+→ Read README.md for full documentation
+
+═══════════════════════════════════════════════════════════════
+   FILES CREATED
+═══════════════════════════════════════════════════════════════
+
+server.js          - Backend server with AI and PDF generation
+public/index.html  - Chat interface
+public/styles.css  - Mobile-responsive styling
+public/app.js      - Frontend JavaScript
+package.json       - Dependencies
+.env               - Configuration (ADD YOUR API KEY HERE!)
+README.md          - Full documentation
+QUICK_START.md     - Quick start guide
+START_HERE.txt     - This file
+
+═══════════════════════════════════════════════════════════════
+
+Ready to demo your estimator app on your phone! 🎉
+
+═══════════════════════════════════════════════════════════════
